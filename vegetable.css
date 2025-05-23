@@ -1,0 +1,85 @@
+html,body{
+    height:100%;
+    color: lightgreen;
+  }
+
+  aside#left{
+    float:left; 
+    width:15%; 
+    height:70%;
+  }
+  section{
+    float:left;
+    width:60%;
+    height:70%;
+  }
+  aside#right{
+    float:right;
+    width:22%;
+    height:70%;
+  }
+  footer{
+    clear:both;
+  }
+  a{color: lightgreen;
+text-decoration: none;}
+ul.nav{
+  list-style: none;
+  text-align: center;
+  border-top:1px solid lightgreen;
+  border-bottom: 1px solid lightgreen;
+  padding: 10px 0;
+}
+ul.nav li{
+display: inline;
+padding: 5%;
+}
+ul.foot{
+  list-style: none;
+  text-align: center;
+  padding: 10px 0;
+}
+ul.foot li{
+  display: inline;
+  padding: 10px
+}
+
+img#main{
+  width: 100%;
+  height: 100%;
+  transition: transform 5s;
+}
+
+img#main:hover{
+  transform: translate(30px, 30px);
+}
+img#apple{
+  width: 100%;
+  height: 100%;
+}
+img#banana{
+  width: 100%;
+  height: 100%;
+}
+img#banana{
+  width: 100%;
+  height: 100%;
+}
+.show{
+  width: 60%;
+  height: 20%;
+  background-color: rgba(238, 235, 235, 0.575);
+  color: black;
+  position: absolute;
+  top:10%;
+  right:10%;
+  text-align: center;
+  padding: 20px 0;
+  animation: 6s showtext infinite;
+}
+@keyframes showtext{
+  0%{ opacity: 0;}
+  30%{ opacity: 1;}
+  60%{ opacity: 1;}
+  100%{ opacity: 0;}
+}
